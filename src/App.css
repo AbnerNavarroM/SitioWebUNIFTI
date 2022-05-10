@@ -1,0 +1,47 @@
+/* .AppContainer {
+  display: block;
+} */
+
+
+.svg {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+}
+
+.divVidaEst {
+  background-color: #f8f9fa;
+}
+
+
+@media screen and (min-width: 961px) {
+  #NoticiasMobile {
+    display: none;
+  }
+  .carouselContainer {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #NoticiasPc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width : 960px) {
+  #NoticiasMobile {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #NoticiasMobile {
+    margin-top: 25px;
+  }
+
+}

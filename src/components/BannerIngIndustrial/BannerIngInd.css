@@ -1,0 +1,188 @@
+.divBanner {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.mainContentIndustrial {
+    position: absolute;
+    width: 100%;
+}
+
+.mainContentIndustrial div {
+    display: inline-block;
+
+}
+
+.contentIndustrial {
+    position: relative;
+}
+
+#IndustrialSabat {
+    background-color: white;
+    color: black;
+}
+
+#Industri4alSabat:active {
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(105, 104, 104);
+}
+
+.contentIndustrial h1 {
+    color: #003891;
+    /* color: black; */
+    font-weight: bold;
+}
+
+.contentIndustrial span {
+    font-size: 0.8em;
+}
+
+/* Laptops L */
+
+/* @media screen and (min-width: 1025px) and (max-width: 1600px) {
+    .mainContentIndustrial {
+        backdrop-filter: blur(5px);
+    }
+
+    .contentIndustrial {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .contentIndustrial h1 {
+        font-size: 2.5em;
+    }
+} */
+
+/* Laptops M */
+
+/* @media screen and (min-width: 801px) and (max-width: 1024px) {
+    .mainContentIndustrial {
+        backdrop-filter: blur(5px);
+    }
+
+    .contentIndustrial {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .contentIndustrial h1 {
+        font-size: 2.5em;
+    }
+} */
+
+/* Para Tablets */
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+
+    .contentIndustrial {
+        text-align: center;
+    }
+
+    .mainContentIndustrial {
+        /* backdrop-filter: blur(3px); */
+        /* background-color: #ff83167a; */
+        /* background-color: #039ea14f; */
+        background-color: #e8e8e86e;
+        min-height: 40vh;
+        width: 100vw;
+        /* border-top: 2px solid red; */
+    }
+
+    .mainContentIndustrial div {
+        width: 12.5%;
+        height: 5vh;
+    }
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (min-width: 451px) {
+
+    #IndustrialSabat {
+        padding: 1vw 3vw;
+        font-size: 1.2em;
+    }
+
+    .mainContentIndustrial {
+        height: 30vh;
+    }
+
+    .mainContentIndustrial div {
+        /* A veinte cuadros por matriz */
+        height: calc((30vh / 24) * 4);
+        /* border: 1px solid red; */
+    }
+}
+
+/* Para dispositivos moviles */
+
+@media screen and (max-width: 450px) {
+    .contentIndustrial {
+        text-align: center;
+    }
+
+    .contentIndustrial h1 {
+        font-size: 1.7em;
+    }
+
+    .containerMainContentIndustrial {
+        width: 120vw;
+        transform: translateX(-10vw);
+        /* border: 1px solid red; */
+    }
+
+    .mainContentIndustrial {
+        background-color: #e8e8e86e;
+        transform: rotateZ(135deg);
+        height: 120vw;
+        width: 120vw;
+        /* border-top: 2px solid red; */
+    }
+
+    #IndustrialSabat {
+        padding: 3vw;
+    }
+
+    .mainContentIndustrial div {
+        width: 25%;
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 450px) {
+    .divBanner {
+        background-position-x: calc(10%);
+    }
+
+    .mainContentIndustrial div {
+        display: inline-block;
+        /* A veinticuatro cuadros por matriz */
+        height: calc((120vw / 20) * 4);
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .divBanner {
+        background-position-x: calc(20%);
+    }
+
+    .mainContentIndustrial div {
+        /* A 16 cuadros por matriz */
+        height: 30vw;
+    }
+
+}

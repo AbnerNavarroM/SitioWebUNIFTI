@@ -1,0 +1,213 @@
+/* Laptops L */
+
+@media screen and (min-width: 1440px) and (max-width: 1980px) {
+    .tituloDivNoticias h1{
+        font-size: 2.5em;
+    }
+
+    .tituloDivNoticias p{
+        font-size: 1.5em;
+    }
+
+    .containerNoticias{
+        width: 100%;
+        height: 85vh;
+        margin-top: 75px !important;
+    }
+
+    .carouselNoticias {
+        height: 70vh;
+        /* border: 1px solid yellow; */
+        /* border: 1px solid green; */
+    }
+
+
+    .paperNoticias>div{
+        display: inline-flex;
+    }
+
+    .divNoticieroImg, .divNoticieroInfo {
+        width: 33.33%;
+        height: 65vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .divNoticieroInfo{
+        background-color: #880c16;
+        padding: 0 30px;
+    }
+
+    .divNoticieroInfo div{
+        width: 33.33%;
+        position: absolute;
+        top: 0;
+    }
+
+    .divNoticieroInfo h2{
+        margin-top: 15vh;
+        font-size: 2.5em;
+        width: 100%;
+        /* border: 1px solid green; */
+        color: white;
+    }
+
+    .divNoticieroInfo p{
+        color: white;
+        width: 80%;
+        font-size: 1.5em;
+    }
+
+    .divNoticieroInfo .CheckButton{
+        width: 50%;
+        margin: 0 20%;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .divNoticieroInfo .CheckButton:hover,
+    .divNoticieroInfo .CheckButton:active{
+        cursor: pointer;
+        color: white;
+    }
+
+
+    .divNoticieroImg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .divi{
+        position: absolute;
+        bottom: 0;
+        /* border: 1px solid yellow; */
+        height: 120px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.438);
+    }
+
+    .divi p{
+        position: absolute;
+        bottom: 0;
+        color: white;
+        width: 90%;
+        margin-left: 5%;
+        text-align: justify;
+        font-style: italic;
+    }
+
+    span>h5{
+        color: white;
+    }
+}
+
+/* Laptops M */
+
+@media screen and (min-width: 961px) and (max-width: 1440px) {
+
+    .tituloDivNoticias h1{
+        font-size: 2.5em;
+    }
+
+    .tituloDivNoticias p{
+        font-size: 1.5em;
+    }
+
+    .containerNoticias{
+        width: 100%;
+        height: 85vh;
+        margin-top: 75px !important;
+    }
+
+    .carouselNoticias {
+        height: 65vh;
+        /* border: 1px solid yellow; */
+        /* border: 1px solid green; */
+    }
+
+
+    .paperNoticias>div{
+        display: inline-flex;
+    }
+
+    .divNoticieroImg, .divNoticieroInfo {
+        width: 33.33%;
+        height: 60vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .divNoticieroInfo{
+        background-color: #880c16;
+    }
+
+    .divNoticieroInfo div{
+        width: 33.33%;
+        position: absolute;
+        top: 0;
+    }
+
+    .divNoticieroInfo h2{
+        margin-top: 5vh;
+        font-size: 2.2em;
+        width: 100%;
+        padding: 20px;
+        /* border: 1px solid green; */
+        color: white;
+    }
+
+    .divNoticieroInfo p{
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+
+    .divNoticieroInfo .CheckButton{
+        width: 50%;
+        margin: 5vh 25%;
+        /* border: 1px solid green; */
+        padding: 10px;
+        background-color: white;
+    }
+
+    .divNoticieroInfo .CheckButton:hover,
+    .divNoticieroInfo .CheckButton:active{
+        cursor: pointer;
+        color: white;
+    }
+
+
+    .divNoticieroImg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .divi{
+        position: absolute;
+        bottom: 0;
+        /* border: 1px solid yellow; */
+        height: 120px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.438);
+    }
+
+    .divi p{
+        font-size: 0.8em;
+        position: absolute;
+        bottom: 0;
+        color: white;
+        width: 90%;
+        margin-left: 5%;
+        text-align: justify;
+        font-style: italic;
+    }
+
+    span>h5{
+        color: white;
+    }
+}

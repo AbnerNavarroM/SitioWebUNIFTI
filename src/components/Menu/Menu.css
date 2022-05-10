@@ -1,0 +1,19 @@
+.menuItem {
+    padding: 15px !important;
+    background-color: #1888ff !important;
+    color: white;
+}
+
+.menuItem:hover{
+    background-color: #6db4ff !important;
+}
+
+.menuButton {
+    margin-left: 20px !important;
+    text-align: center;
+    max-width: 150px;
+}
+
+.menuButton .MuiButton-label {
+    word-wrap: break-word !important;
+}

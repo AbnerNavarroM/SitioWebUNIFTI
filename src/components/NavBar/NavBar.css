@@ -1,0 +1,49 @@
+/* Para Tablets */
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+    .search {
+        margin-left: 10%;
+        width: 80%;
+        /* background-color: aqua !important; */
+    }
+
+    .searchIcon{
+        transform: scale(1.5);
+    }
+
+    .search::placeholder{
+        font-size: 2em;
+    }
+    
+    .input2 {
+        width: 80% !important;
+    }
+
+    .input2 input::placeholder{
+        font-size: 1.25em;
+    }
+
+    .ToolBar{
+        height: 70px;
+        /* border: 1px solid red; */
+    }
+    
+    .menuButton2{
+        transform: scale(1.5) !important;
+    }
+
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (max-width: 1024px) {
+    /* .MenuBottom {} */
+}
+
+/* Para dispositivos moviles */
+
+@media screen and (max-width: 450px) {
+    .search {
+        margin-left: 10px;
+    }
+}

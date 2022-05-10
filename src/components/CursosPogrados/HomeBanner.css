@@ -1,0 +1,136 @@
+/* Laptops L */
+
+@media screen and (min-width: 1025px) {
+
+}
+
+/* Laptops M */
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+
+    .EducacionContinua{
+        height: 90vh;
+        /* border: 1px solid yellow; */
+        background-color: rgba(0, 0, 0, 0.87);
+        padding: 2.5vh 0;
+    }
+    .titulo{
+        width: 30%;
+        float: left;
+    }
+
+    .cursos{
+        margin-left: 32%;
+        width: 66%;
+        /* border: 1px solid green; */
+    }
+
+    .curso:last-child, .curso:nth-child(7){
+        display: none;
+    }
+
+    .infoTitulo{
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        height: 350px;
+        /* border: 1px solid red; */
+        margin-top: calc((80vh - 350px)/2);
+    }
+
+    .infoTitulo h1, .infoTitulo p{
+        text-align: center;
+        color: white;
+    }
+
+    .infoTitulo h1{
+        font-size: 2.5em;
+    }
+
+    .infoTitulo p{
+        font-size: 1.25em;
+    }
+
+    #posgradosBtn{
+        background-color: #00389183;
+        border: none;
+        color: white;
+        padding: 10px;
+        width: 80%;
+        text-align: start !important;
+        margin-left: 10%;
+    }
+
+    #posgradosBtn:hover, #posgradosBtn:active{
+        background-color: white;
+        color: black;
+    }
+
+}
+
+/* Para Tablets */
+
+@media screen and (min-width: 426px) and (max-width: 800px) {
+
+    .EducacionContinua {
+        height: 90vh;    
+        margin-bottom: 100px;
+    }
+
+    .titulo{
+        margin-top: 100px ;
+        margin-bottom: 50px;
+    }
+
+    .infoTitulo {
+        margin: 5% 0;
+        text-align: center;
+    }
+    #posgradosBtn {
+        display: none;
+    }
+
+    .infoTitulo h2{
+        font-size: 3.5em;
+    }
+
+    .infoTitulo p{
+        font-size: 2em;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (max-width: 800px) {}
+
+/* Para dispositivos moviles */
+
+@media screen and (max-width: 425px) {
+    .EducacionContinua {
+        height: 95vh;
+    }
+
+    .titulo{
+        margin-bottom: 50px;
+    }
+
+    .infoTitulo {
+        margin: 5% 0;
+        text-align: center;
+    }
+    #posgradosBtn {
+        display: none;
+    }
+
+    .infoTitulo h2{
+        font-size: 2.25em;
+    }
+
+    .infoTitulo p{
+        font-size: 1.25em;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

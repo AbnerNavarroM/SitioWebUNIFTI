@@ -1,0 +1,300 @@
+/* .infoComp {
+    width: 90%;
+    margin: 10px auto;
+    height: 175px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.infoComp:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.closeButton {
+    padding: 0 5px;
+    margin-top: 5px;
+    z-index: 3;
+    float: right;
+    margin-right: 15px;
+}
+
+.closeButton:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 50%;
+}
+
+.textoInfo {
+    position: absolute;
+    bottom: 0;
+    background-color: #00389183;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: start;
+}
+
+
+.textoInfo h4 {
+    width: 90%;
+    text-align: end;
+    float: right;
+    font-size: 1.2em;
+}
+
+.textoInfo a {
+    margin: 0 auto;
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .textoInfo p {
+        display: none;
+    }
+} */
+
+
+/* Para Todos */
+/* .infoComp{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.infoComp:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.closeButton{
+    float: right;
+} */
+
+
+/* Para todos */
+/* .textoInfo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 5%;
+    background-color: #00389183;
+    min-height: 20%;
+    text-align: end;
+}
+
+.textoInfo a{
+    color: white;
+    text-decoration: underline;
+} */
+
+/* Laptops L */
+
+/* @media screen and (min-width: 1025px) and (max-width: 1600px){
+    .infoComp{
+       margin-bottom: 15px;
+    }
+    .closeButton{
+        border-radius: 50%;
+        background-color: rgba(41, 41, 41, 0.377);
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .closeButton:hover{
+        transform: scale(1.15);
+        transition: 0.5s;
+        background-color: rgba(41, 41, 41, 0.582);
+    }
+} */
+
+/* Laptops M */
+/* 
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    .closeButton{
+        border-radius: 50%;
+        background-color: rgba(41, 41, 41, 0.377);
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .closeButton:hover{
+        transform: scale(1.15);
+        transition: 0.5s;
+        background-color: rgba(41, 41, 41, 0.582);
+    }
+} */
+
+
+/* Para Tablets */
+
+/* @media screen and (min-width: 426px) and (max-width: 800px) {
+    .infoComp{
+        height: 35vh;
+        margin: 20px auto;
+    }
+
+    .closeButton{
+        margin: 25px 30px;
+    }
+
+    .textoInfo {
+        font-size: 2em;
+    }
+} */
+
+/* Para dispositivos Moviles y tablets */
+
+/* @media screen and (max-width: 800px) {
+    .infoComp{
+        width: 90%;
+    }
+} */
+
+/* Para dispositivos moviles */
+/* 
+@media screen and (max-width: 425px) {
+    .infoComp{
+        height: 175px;
+        margin: 10px auto;
+        font-size: 1.2em;
+    }
+
+    .closeButton{
+        padding: 0 5px;
+        margin: 10px 15px;
+    }
+} */
+
+
+.infoComp{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2vh;
+}
+
+.infoComp:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.textoInfo {
+    background-color: #00389183;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+    bottom: 0;
+}
+
+.textoInfo h4{
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.textoInfo a{
+    text-decoration: underline;
+    color: white;
+}
+
+/* Laptops L */
+
+@media screen and (min-width: 1441px) {
+    .infoComp{
+        height: 20vh;
+        width: 85%;
+    }
+
+    .textoInfo h4{
+        font-size: 1.2em;
+    }
+
+    .textoInfo{
+        padding: 7px 0;
+    }
+}
+
+/* Laptops M */
+
+@media screen and (min-width: 961px) and (max-width: 1440px) {
+    .infoComp{
+        width: 95%;
+    }
+
+    .textoInfo{
+        padding: 7px 0;
+    }
+    .textoInfo h4{
+        font-size: 1.05em;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1440px) {
+    .infoComp{
+        height: 20vh;
+    }
+}
+
+/* Para Tablets */
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+
+    .infoComp{
+        height: 25vh;
+        width: 90%;
+    }
+
+    .textoInfo{
+        font-size: 1.2em;
+        padding: 10px 0;
+    }
+
+}
+
+/* Para dispositivos moviles mas grandes */
+
+@media screen and (max-width: 450px) {
+    
+    .infoComp{
+        height: 20vh;
+    }
+
+    .textoInfo{
+        padding: 5px 0;
+    }
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 450px) {
+
+    .infoComp{
+        width: 95%;
+    }
+
+    .textoInfo h4{
+        font-size: 1em;
+    }
+
+}
+
+/*Para telefonos mini*/
+@media screen and (max-width: 360px) {
+  
+    .infoComp{
+        width: 90%;
+    }
+
+    .textoInfo h4{
+        font-size: 0.8em;
+    }
+}

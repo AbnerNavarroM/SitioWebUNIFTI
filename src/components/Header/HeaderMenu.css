@@ -1,0 +1,31 @@
+.containerHeaderMenu{
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    z-index: 10000;
+    /* border: 1px solid red; */
+}
+
+#logoUNILaptop{
+    height: 60px;
+    padding: 0;
+    /* border: 1px solid yellow; */
+    margin-top: 20px;
+}
+
+/* Laptops L */
+
+@media screen and (min-width: 1050px) {
+    .headerMenu{
+        width: 1040px;
+        margin-left: calc(((100vw) - 1040px) / 2); 
+    }
+}
+
+/* Laptops M */
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    
+}

@@ -1,0 +1,47 @@
+/* Para Tablets */
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+    
+    .MuiAccordion-root p{
+        font-size: 1.1em;
+    }
+
+    .TabletLogo{
+        width: 65% !important;
+        margin: 0 auto;
+    }
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (max-width: 960px) {
+
+}
+
+/* Para dispositivos moviles */
+
+@media screen and (min-width: 361px) and (max-width: 450px) {
+    
+    .MuiAccordion-root p{
+        font-size: 1em;
+    }
+
+    .MobileLogo{
+        width: 60% !important;
+        margin: 0 auto;
+        /* border: 2px solid red; */
+
+    }
+}
+
+/*Para moviles Mini*/
+@media screen and (max-width: 360px) {
+    .MuiAccordion-root p{
+        font-size: 0.9em;
+    }
+
+    .MiniLogo{
+        width: 55% !important;
+        margin: 0 auto;
+    }
+}

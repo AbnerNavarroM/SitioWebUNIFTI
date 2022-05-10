@@ -1,0 +1,210 @@
+.HomeFooter{
+    background-color: #131C21;
+}
+
+.HomeFooter h1, .infoSide h1, .infoSide h2, .infoSide h3, .infoSide h4, .infoSide h5, .infoSide h6 {
+    color: white;
+}
+
+/* Laptops L */
+
+@media screen and (min-width: 1025px) {
+
+}
+
+/* Laptops M */
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+
+    .HomeFooter{
+        height: 45vh;
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .HomeFooter{
+        display: inline-flex;
+    }
+
+    .columna{
+        margin: 2.5vh auto;
+        display: block;
+        height: calc(40vh - 60px);
+        padding: 0 25px;
+        /* border: 1px solid yellow; */
+    }
+
+     /* .columna:first-child{
+        width: 50%;
+    } */
+
+    .columna:nth-child(2){
+        width: 50%;
+    } 
+
+    .columna:last-child{
+        width: 20%;
+    }
+    .infoDivFooter{
+        margin-bottom: 20px;
+    }
+
+    .iconSide, .infoSide{
+        display: inline-flex;
+    }
+
+    .iconSide{
+        width: 10%;
+        float: left;
+    }
+
+    .infoSide{
+        margin: 0 5%;
+        width: 80%;
+    }
+
+    .socialIcons{
+        width: 15%;
+        margin-left: 20px;
+    }
+
+    .BottomFooter{
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        z-index: 1000;
+        height: 30px;
+        margin-top: calc(40vh + 15px);
+        background-color: black;
+        display: none;
+    }
+
+    .BottomFooter p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .RedesSocialesContainer{
+        
+    }
+}
+
+/* Para Tablets */
+
+@media screen and (min-width: 426px) and (max-width: 800px) {
+
+    .columna h1{
+        font-size: 3em;
+    }
+
+    .columna{
+        margin-bottom: 30px;
+    }
+
+    .HomeFooter{
+        padding-top: 50px;
+    }
+
+    .HomeFooter h3{
+        padding: 0;
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .infoDivFooter{
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .infoSide {
+        width: 85%;
+    }
+
+    .columna {
+        display: block;
+        padding: 0 75px;
+    }
+
+    .iconSide {
+        width: 5%;
+        float: left;
+        margin: 0 5%;
+    }
+
+    .secondDiv{
+        margin-left: 5%;
+    }
+    
+    .secondDiv a{
+        font-size: 1.5em;
+    }
+
+    .socialIcons{
+        width: 10%;
+        margin: 0 5%;
+    }
+
+    .BottomFooter{
+        background-color: black;
+    }
+
+    .BottomFooter p{
+        font-size: 1.5em;
+        color: white;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (max-width: 800px) {}
+
+/* Para dispositivos moviles */
+
+@media screen and (max-width: 425px) {
+    .HomeFooter {
+        margin-top: 900px;
+        display: block;
+    }
+    .infoDivFooter {
+        display: inline-flex;
+    }
+    .columna {
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    .columna:first-child {
+        padding-top: 30px;
+    }
+    .iconSide {
+        width: 7.5%;
+        margin: 0 10%;
+    }
+    .infoSide {
+        width: 70%;
+        margin: 0px 5%;
+        margin-top: 10px;
+    }
+    .enlaces a {
+        margin: 0 10%;
+    }
+    .RedesSocialesContainer {
+        margin: 5%;
+    }
+    .socialIcons {
+        width: 10%;
+        margin: 0 15px;
+    }
+    .BottomFooter {
+        width: 100%;
+        background-color: black;
+        padding: 0;
+        color: white;
+        text-align: center;
+    }
+    .BottomFooter p {
+        padding: 5px;
+    }
+}

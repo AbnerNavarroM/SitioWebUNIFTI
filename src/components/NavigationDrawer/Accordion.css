@@ -1,0 +1,8 @@
+.accordionDetails{
+    display: block !important;
+}
+
+.accordionDetails a{
+    text-decoration: none;
+    color: black;
+}

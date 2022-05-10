@@ -1,0 +1,121 @@
+#tituloMisionVision{
+    color: black;
+}
+
+.misionVisionContainer p{
+    text-align: justify;
+}
+
+.misionVisionContainer h1, .misionVisionContainer p {
+    color: white;
+}
+
+.misionVisionContainer h1{
+    text-align: center;
+}
+
+.misionImgContainer img, .visionImgContainer img{
+    width: 20%;
+    margin: 0 40%;
+    /* border: 1px solid red; */
+}
+
+/* Laptops L */
+
+@media screen and (min-width: 1025px) {
+
+}
+
+/* Laptops M */
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    .misionVisionContainer{
+        /* border: 1px solid red; */
+        margin: 75px 0px 75px 0px;
+    }
+
+    #tituloMisionVision{
+        margin: 50px 0;
+        font-size: 2.5em;
+    }
+
+    .infoMisionVision{
+        display: inline-flex;
+    }
+    .misionContainer, .visionContainer{
+        width: 45%;
+        margin: 0 2.5%;
+        /* border: 1px solid green; */
+        background-color: #0670AB;
+        padding: 15px;
+    }
+}
+
+/* Para Tablets */
+
+@media screen and (min-width: 426px) and (max-width: 800px) {
+    #tituloMisionVision{
+        font-size: 3em;
+        margin-bottom: 50px;
+    }
+
+    .misionContainer, .visionContainer {
+        width: 80%;
+        margin: 0 10%;
+        height: 42.5vh;
+        background-color: #0670AB;
+        padding: 40px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+    }
+
+    .misionVisionContainer p{
+        font-size: 1.5em;
+    }
+
+    .misionVisionContainer h1{
+        font-size: 2.5em;
+    }
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (max-width: 800px) {
+
+}
+
+/* Para dispositivos moviles */
+@media screen and (max-width: 425px) {
+    .misionVisionContainer {
+        position: relative;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 75px;
+        display: block;
+    }
+
+    .misionContainer, .visionContainer {
+        width: 90%;
+        margin: 0 5%;
+        height: 55vh;
+        background-color: #0670AB;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 7px;
+    }
+
+    #tituloMisionVision{
+        margin-bottom: 50px;
+        font-size: 2.5em;
+    }
+
+    .misionVisionContainer p{
+        padding: 0 5px;
+        font-size: 1.1em;
+    }
+
+    .misionVisionContainer h1{
+        font-size: 2em;
+    }
+
+}

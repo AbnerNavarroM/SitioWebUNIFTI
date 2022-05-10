@@ -1,0 +1,213 @@
+.containerCarouselInfoHelp {
+    position: absolute;
+    z-index: 100;
+    background-color: #2e406e2f;
+    text-align: center;
+    box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.356);
+    max-height: 90vh;
+}
+
+.containerCarouselInfoHelp h3 {
+    color: white;
+    margin-top: 2vh;
+}
+
+.containerLinks {
+    /* z-index: 3; */
+    position: absolute;
+}
+
+.containerInfoComp {
+    overflow-y: scroll;
+    max-height: 75vh;
+    bottom: 0;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(211, 211, 211, 0);
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(211, 211, 211, 0.507);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: lightgray;
+}
+
+/* Para dispositivos mini */
+
+@media screen and (max-width: 360px) {
+    .containerCarouselInfoHelp h3 {
+        font-size: 1.5em;
+    }
+
+    .containerCarouselInfoHelp {
+        width: 85%;
+        margin: 10vh 7.5%;
+    }
+
+    /* .containerInfoComp {
+        max-width: 90%;
+    } */
+}
+
+/*Para dispositivos moviles*/
+
+@media screen and (min-width: 361px) and (max-width: 450px) {
+    .containerCarouselInfoHelp h3 {
+        font-size: 1.7em;
+    }
+
+    .containerCarouselInfoHelp {
+        width: 90%;
+        margin: 10vh 5%;
+    }
+}
+
+/*Para tablets*/
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+
+    .containerCarouselInfoHelp {
+        width: 85%;
+        margin: 15vh 7.5%;
+        /* max-height: 85vh; */
+    }
+
+    .containerCarouselInfoHelp h3 {
+        font-size: 1.7em;
+    }
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (max-width: 960px) {
+    .Links {
+        display: none;
+    }
+}
+
+
+/*Aplicable a las laptops en general*/
+
+@media screen and (min-width: 961px) {
+    .containerCarouselInfoHelp {
+        width: 35vw;
+        /* 35% del ancho*/
+        margin-left: 2.5vw;
+        /* 2.5 % de margen izquierdo*/
+        height: 90vh;
+        margin-top: 15vh;
+    }
+
+    .containerLinks {
+        width: 55vw;
+        margin-left: 40vw;
+        height: 15vh;
+        margin-top: 25vh;
+        z-index: 1000;
+        /* border: 1px solid yellow; */
+    }
+
+    .Links {
+        display: block;
+        position: relative;
+        z-index: 100;
+        width: 100%;
+        margin: 0;
+        cursor: pointer;
+        /* border: 1px solid yellow; */
+    }
+
+
+    /*Para que los Links se miren a simple vista en en el carousel*/
+
+    .Links div {
+        width: 100%;
+        height: 10vh;
+        backdrop-filter: blur(2px);
+        margin: 1vh 10px;
+        /* border-radius: 50%; */
+        padding: 10px;
+        background-color: #00389132;
+        /* background-color: #e8e8e825; */
+    }
+
+    .Links div:hover{
+        transform: scale(1.05) translateX(-1vw);
+        transition: transform 0.5s;
+        background-color: #00389167;
+    }
+
+    .Links div h2 {
+        font-size: 1.25em;
+        text-align: center;
+        height: 60px;
+        margin-top: calc((10vh - 60px) / 2);
+    }
+
+    .Links a {
+        width: 100%;
+        color: white;
+        text-decoration: underline;
+        transition: all 0.5s;
+    }
+
+    .Links a:active {
+        text-decoration: none;
+        opacity: 0.4;
+    }
+}
+
+/* Laptops M */
+@media screen and (min-width: 961px) and (max-width: 1440px) {
+    .carouselInfo {
+        position: absolute;
+        width: 100%;
+    }
+
+    .containerCarouselInfoHelp h3 {
+        font-size: 1.9em;
+    }
+
+    .containerCarouselInfoHelp {
+        margin-top: 13vh;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1980px) {
+
+    .containerCarouselInfoHelp h3 {
+        font-size: 2.4em;
+    }
+
+    .containerCarouselInfoHelp{
+        width: 30vw;
+    }
+}
+
+/* Laptops L */
+
+@media screen and (min-width: 1441px) {
+
+    .Links div h2 {
+        font-size: 1.5em;
+        margin-top: calc((10vh - 60px) / 2);
+    }
+}

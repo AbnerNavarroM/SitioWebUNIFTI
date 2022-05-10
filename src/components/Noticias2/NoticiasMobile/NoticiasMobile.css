@@ -1,0 +1,180 @@
+.carouselImgMobile {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#NoticiasButton{
+    width: 50%;
+    margin: 20px 25%;
+    background-color: aliceblue;
+}
+
+.NoticiasMobileTitle, .NoticiasMobileDescription{
+    text-align: center;
+}
+
+.content p{
+    color : #f2f2f2;
+    opacity: 0.8;
+}
+
+/* Para Telefonos o Dispositivos mayores a un telefono ordinario pero mas pequeños que una tablet */
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+
+    .NoticiasMobile{
+        margin-top: 25px;
+    }
+
+    .carouselImgMobile{
+        height: 500px;
+        margin-top: 15px;
+    }
+
+    .carouselImgMobileContent h1 {
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .carouselImgMobileContent {
+        position: absolute;
+        width: 100%;
+    }
+
+    .carouselImgMobileContent .content{
+        background-color: rgba(0, 0, 0, 0.50);
+        position: relative;
+        width: 100%;
+        height: 450px;
+        margin-top: 100px;
+        padding: 30px 0;
+    }
+
+    .NoticiasMobileTitle{
+        font-size: 2em;
+    }
+
+    .NoticiasMobileDescription{
+        font-size: 1.5em;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content p{
+        width: 80%;
+        margin: 10px auto;
+        font-size: 1.2em;
+        /* font-style: italic;
+        text-align: justify; */
+        line-break: auto;
+    }
+
+
+}
+
+/* Para dispositivos Moviles y tablets */
+
+@media screen and (max-width: 960px) {}
+
+@media screen and (max-width: 450px) {
+    .content p{
+        font-size: 1em;
+    }
+}
+
+/* Para dispositivos moviles modernos */
+
+@media screen and (min-width: 361px) and (max-width: 450px) {
+    .carouselImgMobile{
+        height: 500px;
+        margin-top: 15px;
+    }
+
+    .carouselImgMobileContent h1 {
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+    .carouselImgMobileContent {
+        position: absolute;
+        width: 100%;
+    }
+
+    .carouselImgMobileContent .content{
+        background-color: rgba(0, 0, 0, 0.50);
+        position: relative;
+        width: 100%;
+        height: 370px;
+        margin-top: 75px;
+        padding: 30px 0;
+    }
+
+    .NoticiasMobileTitle{
+        font-size: 2em;
+    }
+
+    .NoticiasMobileDescription{
+        font-size: 1.5em;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content p{
+        width: 80%;
+        margin: 10px auto;
+        /* font-style: italic; */
+        /* text-align: justify; */
+        line-break: auto;
+    }
+
+}
+
+/*Telefonos Mini */
+
+@media screen and (max-width: 360px) {
+
+    .carouselImgMobile{
+        height: 350px;
+    }
+
+    .carouselImgMobileContent h1 {
+        font-size: 1.2em;
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .carouselImgMobileContent {
+        position: absolute;
+        width: 100%;
+    }
+
+    .carouselImgMobileContent .content{
+        background-color: rgba(0, 0, 0, 0.562);
+        position: relative;
+        width: 100%;
+        height: 350px;
+        margin-top: 50px;
+        padding-top: 30px;
+    }
+
+    .NoticiasMobileTitle{
+        font-size: 1.5em;
+    }
+
+    .NoticiasMobileDescription{
+        font-size: 1em;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content p{
+        width: 80%;
+        margin: 10px auto;
+        /* font-style: italic;
+        text-align: justify; */
+    }
+
+}
